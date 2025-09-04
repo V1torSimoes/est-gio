@@ -1,0 +1,133 @@
+/* Estilo geral */
+body {
+  font-family: 'Verdana', sans-serif;
+  background-color: #f9fafc;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.8;
+}
+
+header {
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  color: white;
+  text-align: center;
+  padding: 20px 10px;  /* 🔽 DIMINUÍ o tamanho do fundo */
+}
+
+header h1 {
+  font-size: 2rem; /* 🔽 Menor que antes */
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Menu */
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #388E3C;
+  padding: 6px 0; /* 🔽 Menor altura */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px; /* 🔽 Mais compacto */
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background-color: #2E7D32;
+  transform: scale(1.05);
+}
+
+/* Conteúdo */
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 15px; /* 🔽 Menor espaço */
+}
+
+h2 {
+  color: #4CAF50;
+  margin-bottom: 12px;
+  font-size: 1.8rem;
+}
+
+p, li {
+  font-size: 1.05rem;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Botões */
+button, .btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 22px;
+  font-size: 0.95rem;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 8px 4px;
+  transition: 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover, .btn:hover {
+  background-color: #2E7D32;
+  transform: scale(1.05);
+}
+
+/* Quiz */
+.quiz {
+  margin-top: 25px;
+  padding: 18px;
+  border: 2px dashed #4CAF50;
+  border-radius: 10px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 0.95rem;
+}
+
+/* Melhor espaçamento para listas */
+ul {
+  padding-left: 18px;
+  margin: 12px 0;
+}
+
+li {
+  margin-bottom: 6px;
+}
